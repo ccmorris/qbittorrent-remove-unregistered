@@ -1,15 +1,18 @@
-# remove-unregistered-torrents
+# Remove qBittorrent Unregistered Torrents
 
-To install dependencies:
+> Removes torrents from qBittorrent that are marked as "Unregistered torrent" by the tracker.
+
+## Setup
+
+Install bun: <https://bun.sh>
+
+Configure:
+
+1. Copy the `.env.example` to `.env`
+2. Fill in the details for your qBittorrent server.
+
+Run:
 
 ```bash
-bun install
+bun start
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
